@@ -17,6 +17,7 @@ The goal is to avoid duplicate docs, doc drift, and accidental exposure of inter
 | Promotion decisions              | `paw-mission-control`                   | Records what becomes reusable and why         |
 | Registry workflow                | `paw-mission-control`                   | Future registry governance                    |
 | Internal plans and roadmaps      | `paw-mission-control`                   | Private planning docs                         |
+| Starter-origin internal planning | `paw-mission-control`                   | Private copies live in `docs/internal-planning/starter-kit/` before starter sanitization |
 | Private agent skills and prompts | `paw-mission-control`                   | Do not copy to client repos                   |
 | Starter file map                 | `paw-starter-kit`                       | Describes actual starter code structure       |
 | Starter design system            | `paw-starter-kit`                       | Token, primitive, section, and theme rules    |
@@ -48,6 +49,7 @@ Do not copy into client repos:
 - registry strategy
 - private prompts or skills
 - internal system governance docs
+- starter-origin internal planning copies
 - client trackers for other clients
 
 ## Starter Cleanup Rule

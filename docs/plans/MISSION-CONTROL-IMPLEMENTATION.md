@@ -133,6 +133,8 @@ Acceptance criteria:
 
 Objective: preserve internal planning knowledge in mission control without breaking the starter yet.
 
+Status: Complete as of 2026-04-29. Remaining starter-origin internal docs were copied to `docs/internal-planning/starter-kit/` with source notes.
+
 Copy from `paw-starter-kit` into mission control:
 
 - `docs/plans/`
@@ -355,11 +357,9 @@ Acceptance criteria:
 
 Do next:
 
-1. Create private `paw-mission-control` repo.
-2. Add minimal mission-control structure.
-3. Copy this plan and the starter/registry/client direction plan into mission control.
-4. Add the first client tracker template.
-5. Do not sanitize `paw-starter-kit` until mission-control copies exist.
+1. Keep `paw-starter-kit` unchanged until a separate Phase 5 sanitization task is approved.
+2. Define the Phase 6 client repo export policy.
+3. Continue Phase 7 registry governance by creating a registry candidate list.
 
 Do not do yet:
 
