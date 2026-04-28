@@ -29,6 +29,8 @@ Every task must state:
 - validation required
 - promotion impact
 
+See `AGENTS.md` for the required agent operating contract.
+
 ## Standard Folders
 
 ```txt

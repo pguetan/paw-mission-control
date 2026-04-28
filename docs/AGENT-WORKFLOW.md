@@ -9,6 +9,7 @@ Define how coding agents should operate across mission control, starter, registr
 Mission control coordinates work. It is not automatically the write target.
 
 Every task must declare the write target repo.
+Use the root `AGENTS.md` as the mandatory operating contract for agents in this repo.
 
 ## Starter Work Prompt Pattern
 

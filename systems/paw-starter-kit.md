@@ -1,7 +1,7 @@
 # paw-starter-kit
 
 Repo: git@github.com:pguetan/paw-starter-kit.git
-Local path: `/home/pguetan/projects/WD-SYSTEM`
+Local path: `/home/pguetan/projects/paw-starter-kit`
 Mode: Starter Governance
 Status: Template foundation active
 
