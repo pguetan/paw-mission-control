@@ -8,7 +8,7 @@ Define the standard workflow for creating and managing client website repos.
 
 1. Create or select the client tracker in `clients/`.
 2. Confirm approved inputs.
-3. Create the client repo from the starter export process.
+3. Create the client repo using `docs/CLIENT-REPO-EXPORT-POLICY.md`.
 4. Add client-safe `AGENTS.md` and docs.
 5. Add approved copy, assets, theme, and integrations.
 6. Build in the client repo.
@@ -36,6 +36,8 @@ Client repos must not include:
 - registry strategy
 - private prompts or skills
 - internal decision logs
+
+See `docs/CLIENT-REPO-EXPORT-POLICY.md` for the full export boundary.
 
 ## Agent Instruction
 

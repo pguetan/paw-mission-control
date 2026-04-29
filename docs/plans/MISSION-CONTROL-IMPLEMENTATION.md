@@ -306,6 +306,8 @@ Acceptance criteria:
 
 Objective: define what client repos receive when created from the starter.
 
+Status: Complete as of 2026-04-29. The export policy lives in `docs/CLIENT-REPO-EXPORT-POLICY.md`, and export automation is deferred until manual creation repeats enough to justify it.
+
 Tasks:
 
 1. Create mission-control doc: `docs/CLIENT-REPO-EXPORT-POLICY.md`.
@@ -358,8 +360,8 @@ Acceptance criteria:
 Do next:
 
 1. Keep `paw-starter-kit` unchanged until a separate Phase 5 sanitization task is approved.
-2. Define the Phase 6 client repo export policy.
-3. Continue Phase 7 registry governance by creating a registry candidate list.
+2. Continue Phase 7 registry governance by creating a registry candidate list.
+3. Use the Phase 6 export policy before the first real client repo export.
 
 Do not do yet:
 
