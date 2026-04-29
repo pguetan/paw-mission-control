@@ -1,4 +1,0 @@
-interface:
-  display_name: "Wireframe to Starter Plan"
-  short_description: "Map PAW wireframes into starter build plans"
-  default_prompt: "Use $wireframe-to-starter-plan to inspect this homepage wireframe and create the starter build plan."

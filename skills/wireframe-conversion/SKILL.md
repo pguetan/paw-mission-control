@@ -1,9 +1,9 @@
 ---
-name: wireframe-to-starter-plan
-description: Inspect and translate PAW homepage/page wireframes into mission-control planning artifacts and starter-kit implementation plans. Use when Codex is given a wireframe image, screenshot, Figma export, or planning asset for `paw-starter-kit` or a client website and needs to create or update wireframe notes, section maps, reusable section/component/data needs, build order, repo-boundary decisions, and validation steps before implementation.
+name: wireframe-conversion
+description: Inspect and convert PAW homepage/page wireframes into mission-control planning artifacts and starter-kit implementation plans. Use when Codex is given a wireframe image, screenshot, Figma export, or planning asset for `paw-starter-kit` or a client website and needs to create or update wireframe notes, section maps, reusable section/component/data needs, build order, repo-boundary decisions, and validation steps before implementation.
 ---
 
-# Wireframe To Starter Plan
+# Wireframe Conversion
 
 ## Purpose
 

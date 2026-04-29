@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wireframe Conversion"
+  short_description: "Map PAW wireframes into starter build plans"
+  default_prompt: "Use $wireframe-conversion to inspect this homepage wireframe and create the starter build plan."
