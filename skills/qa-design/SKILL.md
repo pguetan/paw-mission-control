@@ -33,7 +33,8 @@ If the task starts from a short command such as `*qa-design`, infer the current 
 5. Decide whether each fix belongs in a token, primitive, section variant, section component, page composition, or data source.
 6. Fix clear violations in the narrowest correct layer.
 7. Update inventories/docs when reusable sections, variants, primitives, or tokens change.
-8. Run validation and report remaining design-system gaps.
+8. Run lint/type/build validation when supported.
+9. Report remaining design-system gaps and validation status.
 
 ## Design-System Checklist
 
@@ -94,6 +95,17 @@ pnpm check
 
 When the audit touches visual behavior, also run a browser check across desktop and mobile.
 
+If the repo exposes separate commands, run the relevant linting and type/build checks individually or through the aggregate validation script. Prefer the aggregate script when it includes lint, typecheck, and build.
+
+For JavaScript/TypeScript repos, look for scripts such as:
+
+- `pnpm lint`
+- `pnpm typecheck`
+- `pnpm build`
+- `pnpm check`
+
+Treat visible IDE lint errors as actionable signals, but verify them through the repo's CLI validation before reporting completion.
+
 ## Output
 
 Report:
@@ -103,5 +115,6 @@ Report:
 - files changed
 - docs/inventories updated
 - validation performed
+- lint/type/build status when supported
 - remaining design-system gaps
 - promotion candidates, if any

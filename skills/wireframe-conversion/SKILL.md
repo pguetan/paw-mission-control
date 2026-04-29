@@ -67,7 +67,8 @@ Use `assets/approved/` only for real client-approved assets.
 4. Identify data sources needed for each block.
 5. Mark client-specific copy, names, brands, logos, or assets that must be replaced for starter-safe implementation.
 6. Define a build order that starts with shared primitives and foundational sections.
-7. Update the notes and section map before implementing.
+7. Define the post-implementation QA sequence.
+8. Update the notes and section map before implementing.
 
 ## Section Map Requirements
 
@@ -116,6 +117,18 @@ For starter implementation plans:
 - update component and section inventories with implementation changes
 - run `pnpm check` before reporting completion
 
+## Post-Implementation QA Hooks
+
+Every wireframe implementation plan must include these follow-up checks:
+
+1. `*qa-visual` after implementation to compare the rendered page against the wireframe or visual reference.
+2. `*qa-design` after visual QA to audit tokens, primitives, variants, repeated patterns, and styling ownership.
+
+These hooks are required planning steps, not permission to ignore repo boundaries.
+
+For starter work, the QA plan should also include `pnpm check`.
+For client work, use the client repo's validation command and log reusable discoveries as promotion candidates.
+
 ## Recommended Build Order
 
 Build in small slices:
@@ -126,8 +139,10 @@ Build in small slices:
 4. content-heavy sections such as offers, bio, lead magnet, blog preview, testimonials
 5. page template/composition
 6. responsive polish
-7. docs and inventory updates
-8. validation and commit
+7. `*qa-visual` rendered comparison
+8. `*qa-design` design-system audit
+9. docs and inventory updates
+10. validation and commit
 
 ## Output
 
@@ -140,4 +155,5 @@ When planning is complete, report:
 - suggested build order
 - target repo for implementation
 - validation required
+- required `*qa-visual` and `*qa-design` follow-up
 - open questions

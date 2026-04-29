@@ -35,7 +35,8 @@ Default workflow:
 4. Map sections to existing starter/client sections, new reusable sections, shared components, and page composition.
 5. Identify data, assets, repo-boundary decisions, and validation needs.
 6. Update wireframe notes and section maps.
-7. Report implementation target, build order, open questions, and validation required.
+7. Define the post-implementation QA plan using `*qa-visual` and `*qa-design`.
+8. Report implementation target, build order, open questions, validation required, and QA follow-up.
 
 Examples:
 
@@ -100,8 +101,8 @@ Default workflow:
 3. Classify findings by ownership layer.
 4. Fix clear design-system violations in the narrowest correct layer.
 5. Update docs/inventories if reusable behavior changes.
-6. Run repo validation.
-7. Report remaining design-system gaps and promotion candidates.
+6. Run repo validation, including lint/type/build checks when supported.
+7. Report remaining design-system gaps, lint/type/build status, and promotion candidates.
 
 Examples:
 
