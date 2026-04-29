@@ -16,6 +16,7 @@ Recent completed work:
 - template-readiness docs
 - SEO baseline
 - starter/registry/client direction plans
+- starter documentation sanitization after mission-control copies were created
 
 ## Validation
 
@@ -31,13 +32,12 @@ pnpm check
 - [ ] Add `HomePageTemplate`.
 - [ ] Add `docs/PAGE-TEMPLATE-GUIDE.md`.
 - [ ] Add next core section families: Header, Footer, CTA, FAQ, Trust Strip.
-- [ ] Decide which internal docs will later move out of the starter after mission control has copies.
+- [x] Remove internal planning docs from the starter after mission-control copies exist.
 
 ## Open Decisions
 
 - When to create `paw-template-registry`.
-- Whether client repo export starts manual or scripted.
-- Which docs remain in starter as sanitized guidance.
+- Whether client repo export should stay manual after the first repeated exports.
 
 ## Promotion Candidates
 
