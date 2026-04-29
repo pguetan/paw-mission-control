@@ -21,11 +21,11 @@ The starter kit must include a modular section library with controlled variants 
 
 ## Non-functional requirements
 
-Performance must be defined with hard budgets, not vibes: Core Web Vitals target LCP within 2.5 seconds, INP at 200 ms or less, and CLS at 0.1 or less, measured at the 75th percentile across mobile and desktop. [reddit](https://www.reddit.com/r/nextjs/comments/15bm4iz/why_does_everyone_seem_to_build_a_blog_with/)
+Performance must be defined with hard budgets, not vibes: Core Web Vitals target LCP within 2.5 seconds, INP at 200 ms or less, and CLS at 0.1 or less, measured at the 75th percentile across mobile and desktop.
 
-Security must be specified against a recognized baseline, and OWASP ASVS is designed to provide a basis for testing technical security controls and secure development requirements. [nextjs](https://nextjs.org/learn/pages-router/data-fetching-blog-data)
+Security must be specified against a recognized baseline, and OWASP ASVS is designed to provide a basis for testing technical security controls and secure development requirements.
 
-Authority-building content also needs search infrastructure, because Google documents structured data for articles and explains that structured data helps search systems understand page content. [developers.google](https://developers.google.com/search/docs/appearance/structured-data/article)
+Authority-building content also needs search infrastructure, because Google documents structured data for articles and explains that structured data helps search systems understand page content.
 
 - Performance:
   - Hard budget for images, fonts, scripts, and above-the-fold motion.
