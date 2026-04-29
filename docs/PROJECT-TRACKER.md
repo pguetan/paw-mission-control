@@ -25,13 +25,16 @@ systems/
 Current system trackers:
 
 - `systems/paw-starter-kit.md`
-
-Future:
-
 - `systems/paw-template-registry.md`
+
+Registry candidates:
+
+- `docs/REGISTRY-CANDIDATES.md`
 
 ## Tracker Rule
 
 Track status and decisions here.
 
 Do implementation work in the target repo.
+
+Promotion candidates may be noted in client trackers first, but registry review should be centralized in `docs/REGISTRY-CANDIDATES.md`.

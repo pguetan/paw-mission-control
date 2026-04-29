@@ -341,6 +341,8 @@ Acceptance criteria:
 
 Objective: keep the future registry tied to mission control decisions.
 
+Status: Complete as of 2026-04-29 for basic governance. Candidate tracking now lives in `docs/REGISTRY-CANDIDATES.md`, and the future registry tracker lives in `systems/paw-template-registry.md`.
+
 Tasks:
 
 1. Move registry planning into mission control.
@@ -360,8 +362,8 @@ Acceptance criteria:
 Do next:
 
 1. Keep `paw-starter-kit` unchanged until a separate Phase 5 sanitization task is approved.
-2. Continue Phase 7 registry governance by creating a registry candidate list.
-3. Use the Phase 6 export policy before the first real client repo export.
+2. Use the Phase 6 export policy before the first real client repo export.
+3. Start Phase 5 starter sanitization only after confirming the copied internal docs and export policy cover the needed boundaries.
 
 Do not do yet:
 

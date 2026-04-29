@@ -16,6 +16,7 @@ The goal is to avoid duplicate docs, doc drift, and accidental exposure of inter
 | System trackers                  | `paw-mission-control`                   | Tracks starter and future registry status     |
 | Promotion decisions              | `paw-mission-control`                   | Records what becomes reusable and why         |
 | Registry workflow                | `paw-mission-control`                   | Future registry governance                    |
+| Registry candidate list          | `paw-mission-control`                   | Tracks reusable candidates before promotion   |
 | Client repo export policy        | `paw-mission-control`                   | Defines what can enter client repos           |
 | Internal plans and roadmaps      | `paw-mission-control`                   | Private planning docs                         |
 | Starter-origin internal planning | `paw-mission-control`                   | Private copies live in `docs/internal-planning/starter-kit/` before starter sanitization |
