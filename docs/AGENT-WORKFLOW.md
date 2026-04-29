@@ -17,6 +17,7 @@ Short chat commands are defined in `docs/AGENT-COMMANDS.md`.
 
 Current command triggers:
 
+- `*wireframe` loads `skills/wireframe-conversion/` for wireframe inspection, section mapping, and implementation planning.
 - `*edit` loads `skills/edit/` for scoped code, content, layout, CSS, or design edits.
 - `*qa-visual` loads `skills/qa-visual/` for visual reference comparison and fixes.
 - `*qa-design` loads `skills/qa-design/` for design-system audits and fixes.

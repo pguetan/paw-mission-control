@@ -111,11 +111,12 @@ For registry decisions, also read:
 
 When a user starts a request with one of these commands, treat it as an explicit workflow trigger:
 
-| Command      | Skill                       | Purpose                                                                                                                         |
-| ------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `*edit`      | `skills/edit/SKILL.md`      | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.           |
-| `*qa-visual` | `skills/qa-visual/SKILL.md` | Compare rendered UI against a wireframe, screenshot, Figma export, or other visual reference, then fix clear visual mismatches. |
-| `*qa-design` | `skills/qa-design/SKILL.md` | Audit design-system use, token/primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations.     |
+| Command      | Skill                                  | Purpose                                                                                                                         |
+| ------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `*wireframe` | `skills/wireframe-conversion/SKILL.md` | Inspect and convert wireframes into mission-control planning artifacts and implementation plans.                                |
+| `*edit`      | `skills/edit/SKILL.md`                 | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.           |
+| `*qa-visual` | `skills/qa-visual/SKILL.md`            | Compare rendered UI against a wireframe, screenshot, Figma export, or other visual reference, then fix clear visual mismatches. |
+| `*qa-design` | `skills/qa-design/SKILL.md`            | Audit design-system use, token/primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations.     |
 
 Command triggers do not override target repo, operating mode, allowed write scope, validation, or promotion rules.
 

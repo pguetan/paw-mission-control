@@ -16,11 +16,34 @@ These commands are private mission-control workflow triggers. They are not clien
 
 ## Commands
 
-| Command      | Skill               | Purpose                                                                                                                                    |
-| ------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `*edit`      | `skills/edit/`      | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.                      |
-| `*qa-visual` | `skills/qa-visual/` | Compare a rendered page against a wireframe, screenshot, Figma export, or visual reference, then fix clear visual mismatches.              |
-| `*qa-design` | `skills/qa-design/` | Audit design-system application, token usage, primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations. |
+| Command      | Skill                          | Purpose                                                                                                                                    |
+| ------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `*wireframe` | `skills/wireframe-conversion/` | Inspect and convert wireframes into mission-control planning artifacts and implementation plans.                                           |
+| `*edit`      | `skills/edit/`                 | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.                      |
+| `*qa-visual` | `skills/qa-visual/`            | Compare a rendered page against a wireframe, screenshot, Figma export, or visual reference, then fix clear visual mismatches.              |
+| `*qa-design` | `skills/qa-design/`            | Audit design-system application, token usage, primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations. |
+
+## `*wireframe`
+
+Use when a wireframe, screenshot, Figma export, or planning asset needs to become a repo-safe PAW build plan before coding.
+
+Default workflow:
+
+1. Identify target repo, mode, wireframe source, validation, and promotion impact.
+2. Store or reference the wireframe in the correct mission-control location.
+3. Inspect the full page or flow from top to bottom.
+4. Map sections to existing starter/client sections, new reusable sections, shared components, and page composition.
+5. Identify data, assets, repo-boundary decisions, and validation needs.
+6. Update wireframe notes and section maps.
+7. Report implementation target, build order, open questions, and validation required.
+
+Examples:
+
+```txt
+*wireframe inspect this homepage wireframe and create the starter build plan
+*wireframe map this client services page into sections and data needs
+*wireframe update the section map after this revised screenshot
+```
 
 ## `*edit`
 
