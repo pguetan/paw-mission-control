@@ -11,6 +11,17 @@ Mission control coordinates work. It is not automatically the write target.
 Every task must declare the write target repo.
 Use the root `AGENTS.md` as the mandatory operating contract for agents in this repo.
 
+## Command Triggers
+
+Short chat commands are defined in `docs/AGENT-COMMANDS.md`.
+
+Current command triggers:
+
+- `*qa-visual` loads `skills/qa-visual/` for visual reference comparison and fixes.
+- `*qa-design` loads `skills/qa-design/` for design-system audits and fixes.
+
+Commands speed up workflow selection, but they do not change repo boundaries, allowed write scope, validation, or promotion rules.
+
 ## Starter Work Prompt Pattern
 
 ```txt

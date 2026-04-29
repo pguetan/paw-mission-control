@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Design"
+  short_description: "Audit token and design-system usage"
+  default_prompt: "Use $qa-design to audit design-system usage and fix clear token, primitive, or pattern gaps."

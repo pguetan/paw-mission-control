@@ -88,8 +88,9 @@ Registry work must:
 1. `README.md`
 2. `docs/OPERATING-MODEL.md`
 3. `docs/AGENT-WORKFLOW.md`
-4. `docs/DOC-OWNERSHIP-MAP.md`
-5. `docs/PROJECT-TRACKER.md`
+4. `docs/AGENT-COMMANDS.md`
+5. `docs/DOC-OWNERSHIP-MAP.md`
+6. `docs/PROJECT-TRACKER.md`
 
 For starter work, also read:
 
@@ -105,6 +106,19 @@ For registry decisions, also read:
 
 - `docs/REGISTRY-WORKFLOW.md`
 - `docs/PROMOTION-CHECKLIST.md`
+
+## Agent Command Triggers
+
+When a user starts a request with one of these commands, treat it as an explicit workflow trigger:
+
+| Command      | Skill                       | Purpose                                                                                                                         |
+| ------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `*qa-visual` | `skills/qa-visual/SKILL.md` | Compare rendered UI against a wireframe, screenshot, Figma export, or other visual reference, then fix clear visual mismatches. |
+| `*qa-design` | `skills/qa-design/SKILL.md` | Audit design-system use, token/primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations.     |
+
+Command triggers do not override target repo, operating mode, allowed write scope, validation, or promotion rules.
+
+Use `docs/AGENT-COMMANDS.md` as the source of truth for command behavior.
 
 ## Cross-Repo Safety Rules
 
@@ -126,4 +140,3 @@ When done, report:
 - validation performed
 - open decisions
 - promotion candidates, if any
-

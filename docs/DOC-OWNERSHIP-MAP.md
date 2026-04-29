@@ -8,29 +8,30 @@ The goal is to avoid duplicate docs, doc drift, and accidental exposure of inter
 
 ## Source of Truth Map
 
-| Doc Type                         | Source of Truth                         | Notes                                         |
-| -------------------------------- | --------------------------------------- | --------------------------------------------- |
-| Internal operating model         | `paw-mission-control`                   | Private agency workflow and repo coordination |
-| Cross-repo agent workflow        | `paw-mission-control`                   | Controls how agents move between repos        |
-| Client trackers                  | `paw-mission-control`                   | One tracker per client project                |
-| System trackers                  | `paw-mission-control`                   | Tracks starter and future registry status     |
-| Promotion decisions              | `paw-mission-control`                   | Records what becomes reusable and why         |
-| Registry workflow                | `paw-mission-control`                   | Future registry governance                    |
-| Registry candidate list          | `paw-mission-control`                   | Tracks reusable candidates before promotion   |
-| Client repo export policy        | `paw-mission-control`                   | Defines what can enter client repos           |
-| Internal plans and roadmaps      | `paw-mission-control`                   | Private planning docs                         |
+| Doc Type                         | Source of Truth                         | Notes                                                                                    |
+| -------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Internal operating model         | `paw-mission-control`                   | Private agency workflow and repo coordination                                            |
+| Cross-repo agent workflow        | `paw-mission-control`                   | Controls how agents move between repos                                                   |
+| Client trackers                  | `paw-mission-control`                   | One tracker per client project                                                           |
+| System trackers                  | `paw-mission-control`                   | Tracks starter and future registry status                                                |
+| Promotion decisions              | `paw-mission-control`                   | Records what becomes reusable and why                                                    |
+| Registry workflow                | `paw-mission-control`                   | Future registry governance                                                               |
+| Registry candidate list          | `paw-mission-control`                   | Tracks reusable candidates before promotion                                              |
+| Client repo export policy        | `paw-mission-control`                   | Defines what can enter client repos                                                      |
+| Agent command registry           | `paw-mission-control`                   | Maps private `*` commands to repo-local skills                                           |
+| Internal plans and roadmaps      | `paw-mission-control`                   | Private planning docs                                                                    |
 | Starter-origin internal planning | `paw-mission-control`                   | Private copies live in `docs/internal-planning/starter-kit/` before starter sanitization |
-| Private agent skills and prompts | `paw-mission-control`                   | Do not copy to client repos                   |
-| Starter file map                 | `paw-starter-kit`                       | Describes actual starter code structure       |
-| Starter design system            | `paw-starter-kit`                       | Token, primitive, section, and theme rules    |
-| Starter component inventory      | `paw-starter-kit`                       | Should match installed starter code           |
-| Starter section inventory        | `paw-starter-kit`                       | Should match installed starter sections       |
-| Starter QA checklist             | `paw-starter-kit`                       | Runtime/template validation                   |
-| Starter deployment guide         | `paw-starter-kit`                       | Template deployment baseline                  |
-| Client-safe editing guide        | client repo                             | Generated or copied in sanitized form         |
-| Client brief                     | client repo and mission-control tracker | Client repo gets client-safe version          |
-| Client content map               | client repo                             | Specific to that client site                  |
-| Client deployment notes          | client repo                             | Specific to hosting/env/domain setup          |
+| Private agent skills and prompts | `paw-mission-control`                   | Do not copy to client repos                                                              |
+| Starter file map                 | `paw-starter-kit`                       | Describes actual starter code structure                                                  |
+| Starter design system            | `paw-starter-kit`                       | Token, primitive, section, and theme rules                                               |
+| Starter component inventory      | `paw-starter-kit`                       | Should match installed starter code                                                      |
+| Starter section inventory        | `paw-starter-kit`                       | Should match installed starter sections                                                  |
+| Starter QA checklist             | `paw-starter-kit`                       | Runtime/template validation                                                              |
+| Starter deployment guide         | `paw-starter-kit`                       | Template deployment baseline                                                             |
+| Client-safe editing guide        | client repo                             | Generated or copied in sanitized form                                                    |
+| Client brief                     | client repo and mission-control tracker | Client repo gets client-safe version                                                     |
+| Client content map               | client repo                             | Specific to that client site                                                             |
+| Client deployment notes          | client repo                             | Specific to hosting/env/domain setup                                                     |
 
 ## Copying Rules
 
@@ -51,6 +52,7 @@ Do not copy into client repos:
 - internal operating model
 - promotion decisions
 - registry strategy
+- agent command registry
 - private prompts or skills
 - internal system governance docs
 - starter-origin internal planning copies

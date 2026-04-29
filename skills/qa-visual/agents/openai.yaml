@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Visual"
+  short_description: "Compare rendered pages to visual references"
+  default_prompt: "Use $qa-visual to compare the rendered page against the reference and fix clear visual mismatches."
