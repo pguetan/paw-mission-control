@@ -17,6 +17,7 @@ Recent completed work:
 - SEO baseline
 - starter/registry/client direction plans
 - starter documentation sanitization after mission-control copies were created
+- starter header and footer shell with placeholder brand/social assets
 
 ## Validation
 
@@ -31,7 +32,8 @@ pnpm check
 - [ ] Move demo data to `data/examples/`.
 - [ ] Add `HomePageTemplate`.
 - [ ] Add `docs/PAGE-TEMPLATE-GUIDE.md`.
-- [ ] Add next core section families: Header, Footer, CTA, FAQ, Trust Strip.
+- [ ] Add next core section families: CTA, FAQ, Trust Strip.
+- [x] Add starter Header and Footer shell.
 - [x] Remove internal planning docs from the starter after mission-control copies exist.
 
 ## Open Decisions
