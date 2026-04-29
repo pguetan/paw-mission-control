@@ -19,6 +19,7 @@ The goal is to avoid duplicate docs, doc drift, and accidental exposure of inter
 | Registry candidate list          | `paw-mission-control`                   | Tracks reusable candidates before promotion                                              |
 | Client repo export policy        | `paw-mission-control`                   | Defines what can enter client repos                                                      |
 | Agent command registry           | `paw-mission-control`                   | Maps private `*` commands to repo-local skills                                           |
+| Wireframe conversion handoffs    | `paw-mission-control`                   | Captures visual reference details before starter/client implementation                   |
 | Internal plans and roadmaps      | `paw-mission-control`                   | Private planning docs                                                                    |
 | Starter-origin internal planning | `paw-mission-control`                   | Private copies live in `docs/internal-planning/starter-kit/` before starter sanitization |
 | Private agent skills and prompts | `paw-mission-control`                   | Do not copy to client repos                                                              |

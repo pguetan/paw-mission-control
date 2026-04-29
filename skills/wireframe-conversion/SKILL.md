@@ -51,6 +51,7 @@ Each package should contain:
 
 ```txt
 <page>-wireframe-vN.png
+handoff-vN.md
 <page>-wireframe-vN-notes.md
 section-map-vN.md
 assets/
@@ -62,13 +63,34 @@ Use `assets/approved/` only for real client-approved assets.
 ## Inspection Workflow
 
 1. Inspect the wireframe visually.
-2. Identify the full section order from top to bottom.
-3. Classify each block as existing starter section, new reusable section, shared component, or page composition only.
-4. Identify data sources needed for each block.
-5. Mark client-specific copy, names, brands, logos, or assets that must be replaced for starter-safe implementation.
-6. Define a build order that starts with shared primitives and foundational sections.
-7. Define the post-implementation QA sequence.
-8. Update the notes and section map before implementing.
+2. Collect or confirm the handoff details from `docs/WIREFRAME-CONVERSION-HANDOFF.md`.
+3. Identify the full section order from top to bottom.
+4. Classify each block as existing starter section, new reusable section, shared component, or page composition only.
+5. Identify data sources needed for each block.
+6. Mark client-specific copy, names, brands, logos, or assets that must be replaced for starter-safe implementation.
+7. Define a build order that starts with shared primitives and foundational sections.
+8. Define the post-implementation QA sequence.
+9. Update the handoff, notes, and section map before implementing.
+
+## Handoff Requirements
+
+For close first-shot implementation, use `docs/WIREFRAME-CONVERSION-HANDOFF.md`.
+
+The handoff should capture:
+
+- reference source and version
+- target repo and route
+- desktop/mobile viewport sizes
+- exact, close, or directional match level
+- typography, color, spacing, sizing, radius, and asset details
+- copy/content constraints
+- ordered section expectations
+- responsive behavior
+- interaction and accessibility requirements
+- implementation constraints
+- QA acceptance criteria
+
+If the handoff is incomplete, state assumptions before coding.
 
 ## Section Map Requirements
 

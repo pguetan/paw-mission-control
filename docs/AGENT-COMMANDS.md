@@ -30,13 +30,14 @@ Use when a wireframe, screenshot, Figma export, or planning asset needs to becom
 Default workflow:
 
 1. Identify target repo, mode, wireframe source, validation, and promotion impact.
-2. Store or reference the wireframe in the correct mission-control location.
-3. Inspect the full page or flow from top to bottom.
-4. Map sections to existing starter/client sections, new reusable sections, shared components, and page composition.
-5. Identify data, assets, repo-boundary decisions, and validation needs.
-6. Update wireframe notes and section maps.
-7. Define the post-implementation QA plan using `*qa-visual` and `*qa-design`.
-8. Report implementation target, build order, open questions, validation required, and QA follow-up.
+2. Collect or confirm the details in `docs/WIREFRAME-CONVERSION-HANDOFF.md`.
+3. Store or reference the wireframe in the correct mission-control location.
+4. Inspect the full page or flow from top to bottom.
+5. Map sections to existing starter/client sections, new reusable sections, shared components, and page composition.
+6. Identify data, assets, repo-boundary decisions, and validation needs.
+7. Update wireframe notes, handoff, and section maps.
+8. Define the post-implementation QA plan using `*qa-visual` and `*qa-design`.
+9. Report implementation target, build order, open questions, validation required, and QA follow-up.
 
 Examples:
 
