@@ -113,12 +113,15 @@ When a user starts a request with one of these commands, treat it as an explicit
 
 | Command      | Skill                       | Purpose                                                                                                                         |
 | ------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `*edit`      | `skills/edit/SKILL.md`      | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.           |
 | `*qa-visual` | `skills/qa-visual/SKILL.md` | Compare rendered UI against a wireframe, screenshot, Figma export, or other visual reference, then fix clear visual mismatches. |
 | `*qa-design` | `skills/qa-design/SKILL.md` | Audit design-system use, token/primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations.     |
 
 Command triggers do not override target repo, operating mode, allowed write scope, validation, or promotion rules.
 
 Use `docs/AGENT-COMMANDS.md` as the source of truth for command behavior.
+
+Use `skills/edit/SKILL.md` implicitly when a user asks for a concrete design or implementation edit, even if they do not type `*edit`.
 
 ## Cross-Repo Safety Rules
 

@@ -17,10 +17,13 @@ Short chat commands are defined in `docs/AGENT-COMMANDS.md`.
 
 Current command triggers:
 
+- `*edit` loads `skills/edit/` for scoped code, content, layout, CSS, or design edits.
 - `*qa-visual` loads `skills/qa-visual/` for visual reference comparison and fixes.
 - `*qa-design` loads `skills/qa-design/` for design-system audits and fixes.
 
 Commands speed up workflow selection, but they do not change repo boundaries, allowed write scope, validation, or promotion rules.
+
+Use the edit workflow implicitly for concrete change requests such as make, change, tweak, adjust, polish, fix, update, implement, resize, or restyle.
 
 ## Starter Work Prompt Pattern
 

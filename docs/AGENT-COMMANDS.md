@@ -18,8 +18,31 @@ These commands are private mission-control workflow triggers. They are not clien
 
 | Command      | Skill               | Purpose                                                                                                                                    |
 | ------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `*edit`      | `skills/edit/`      | Execute a concrete code, content, layout, CSS, or design edit request, then run a post-edit design-system self-check.                      |
 | `*qa-visual` | `skills/qa-visual/` | Compare a rendered page against a wireframe, screenshot, Figma export, or visual reference, then fix clear visual mismatches.              |
 | `*qa-design` | `skills/qa-design/` | Audit design-system application, token usage, primitive/variant ownership, repeated patterns, and styling gaps, then fix clear violations. |
+
+## `*edit`
+
+Use when the user wants a concrete edit made.
+
+Default workflow:
+
+1. Identify target repo, mode, requested change, validation, and promotion impact.
+2. Classify the request as content, page composition, section layout, primitive, variant, token, global foundation, or asset work.
+3. Edit the narrowest correct layer.
+4. Run the post-edit design-system self-check from `skills/edit/`.
+5. Run repo validation.
+6. Browser-check desktop and mobile when UI behavior changed.
+7. Report files changed, validation, design-system self-check result, and remaining concerns.
+
+Examples:
+
+```txt
+*edit Make the navigation full width.
+*edit Reduce the hero panel height on mobile.
+*edit Update the blog preview heading copy.
+```
 
 ## `*qa-visual`
 

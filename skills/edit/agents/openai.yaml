@@ -1,0 +1,4 @@
+interface:
+  display_name: "Edit"
+  short_description: "Make scoped edits with design-system checks"
+  default_prompt: "Use $edit to make the requested change, then run the post-edit design-system self-check."
