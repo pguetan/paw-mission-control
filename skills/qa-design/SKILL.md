@@ -43,11 +43,13 @@ Check:
 - colors use tokens or approved theme classes
 - typography uses approved font family, sizes, weights, and line heights
 - spacing uses existing scale or tokenized values where practical
+- pixel-derived values map to existing tokens, component props, semantic classes, or `rem` values where practical
 - radii, shadows, borders, and focus states are consistent
 - layout patterns are expressed through reusable sections or variants
 - primitives are used for repeated UI controls
 - variants are used when a section has multiple reusable modes
 - one-off arbitrary values are justified and local
+- repeated raw `px`, repeated arbitrary values, or repeated px-derived values are treated as design-system gaps
 - global CSS is limited to foundations and reset behavior
 - inventories describe new reusable section/variant behavior
 - client-specific styling is not promoted into starter/registry without review
@@ -62,6 +64,9 @@ Prefer this order:
 4. Add or adjust a token only when the decision is system-wide.
 5. Keep page-level styling minimal and composition-focused.
 6. Use global CSS only for imports, resets, base behavior, and theme exposure.
+
+For pixel-derived values, use `16px = 1rem` as the default conversion baseline unless the active handoff or repo says otherwise.
+Preserve raw `px` only when exact pixel behavior is required or when CSS/browser behavior expects pixels.
 
 Do not:
 

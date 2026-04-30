@@ -43,6 +43,24 @@ Classify the edit before changing files:
 
 Use the narrowest correct layer.
 
+## Pixel Specs And Unit Conversion
+
+When an edit request provides pixel values, accept them as input specs.
+
+For PAW starter and client UI work, convert pixel values to existing tokens, component props, or `rem` values using this default baseline unless the request says otherwise:
+
+```txt
+16px = 1rem
+px / 16 = rem
+```
+
+Use this order:
+
+1. Use an existing component prop, variant, semantic class, or token.
+2. Add or propose a reusable token if the value repeats or becomes part of the system.
+3. Use a local `rem` value for one-off art direction.
+4. Keep raw `px` only when exact pixel behavior is required or when CSS/browser behavior expects pixels.
+
 ## Workflow
 
 1. Confirm target repo, mode, scope, validation, and promotion impact.
@@ -59,6 +77,7 @@ Use the narrowest correct layer.
 After implementation, check:
 
 - Did this use existing tokens, primitives, sections, and variants first?
+- Did pixel specs get converted to existing tokens, props, semantic classes, or `rem` values where practical?
 - Did this avoid section-specific fixes in global CSS?
 - Did this introduce repeated styling that should become a primitive or variant?
 - Did this change starter behavior in a brand-neutral and reusable way?

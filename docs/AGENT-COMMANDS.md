@@ -55,11 +55,12 @@ Default workflow:
 
 1. Identify target repo, mode, requested change, validation, and promotion impact.
 2. Classify the request as content, page composition, section layout, primitive, variant, token, global foundation, or asset work.
-3. Edit the narrowest correct layer.
-4. Run the post-edit design-system self-check from `skills/edit/`.
-5. Run repo validation.
-6. Browser-check desktop and mobile when UI behavior changed.
-7. Report files changed, validation, design-system self-check result, and remaining concerns.
+3. Convert pixel specs to existing tokens, component props, semantic classes, or `rem` values using `16px = 1rem` unless exact `px` behavior is required.
+4. Edit the narrowest correct layer.
+5. Run the post-edit design-system self-check from `skills/edit/`.
+6. Run repo validation.
+7. Browser-check desktop and mobile when UI behavior changed.
+8. Report files changed, validation, design-system self-check result, and remaining concerns.
 
 Examples:
 
@@ -99,11 +100,12 @@ Default workflow:
 
 1. Identify target repo, mode, audit area, validation, and promotion impact.
 2. Inspect tokens, primitives, section variants, page composition, and inventories.
-3. Classify findings by ownership layer.
-4. Fix clear design-system violations in the narrowest correct layer.
-5. Update docs/inventories if reusable behavior changes.
-6. Run repo validation, including lint/type/build checks when supported.
-7. Report remaining design-system gaps, lint/type/build status, and promotion candidates.
+3. Audit pixel-derived values for conversion to tokens, component props, semantic classes, or `rem` values.
+4. Classify findings by ownership layer.
+5. Fix clear design-system violations in the narrowest correct layer.
+6. Update docs/inventories if reusable behavior changes.
+7. Run repo validation, including lint/type/build checks when supported.
+8. Report remaining design-system gaps, lint/type/build status, and promotion candidates.
 
 Examples:
 
