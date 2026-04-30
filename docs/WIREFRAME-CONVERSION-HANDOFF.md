@@ -201,6 +201,39 @@ Cards: 24px inner padding
 Section gap: generous, editorial spacing
 ```
 
+### Pixel Specs And Unit Conversion
+
+Pixel values from wireframes and Figma specs are accepted and preferred when that is what the design source provides.
+
+During implementation, convert pixel values into starter tokens or `rem` values using this default baseline:
+
+```txt
+16px = 1rem
+px / 16 = rem
+```
+
+Use this order:
+
+1. Map the pixel value to an existing token or component prop.
+2. If no token exists and the value repeats, add or propose a reusable token.
+3. If the value is a one-off art-direction value, use a local `rem` value.
+4. Preserve raw `px` only when exact pixel behavior is required or when CSS/browser behavior expects pixels.
+
+Common conversions:
+
+| Pixels | Rem       |
+| ------ | --------- |
+| `4px`  | `0.25rem` |
+| `8px`  | `0.5rem`  |
+| `12px` | `0.75rem` |
+| `16px` | `1rem`    |
+| `20px` | `1.25rem` |
+| `24px` | `1.5rem`  |
+| `32px` | `2rem`    |
+| `40px` | `2.5rem`  |
+| `48px` | `3rem`    |
+| `64px` | `4rem`    |
+
 ### 8. Sizing And Shape
 
 Provide:
@@ -445,6 +478,7 @@ Element alignment:
 Hero height:
 Card/image sizes:
 Logo/icon sizes:
+Unit conversion notes:
 
 ## Assets
 

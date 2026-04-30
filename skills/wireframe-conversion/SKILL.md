@@ -82,6 +82,7 @@ The handoff should capture:
 - target repo and route
 - desktop/mobile viewport sizes
 - exact, close, or directional match level
+- pixel specs and unit conversion expectations
 - typography, color, spacing, sizing, radius, and asset details
 - copy/content constraints
 - ordered section expectations
@@ -135,6 +136,8 @@ For starter implementation plans:
 - replace real names, company names, testimonials, client logos, and private assets with neutral example data
 - express visual direction as reusable presets, not fixed brand identity
 - use tokens and existing primitives before adding new styles
+- accept pixel specs from wireframes, then convert to starter tokens or `rem` values using `16px = 1rem` unless the handoff says otherwise
+- preserve raw `px` only when exact pixel behavior is required or when CSS/browser behavior expects pixels
 - add new primitives only when repeated patterns justify them
 - update component and section inventories with implementation changes
 - run `pnpm check` before reporting completion
